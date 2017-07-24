@@ -1,0 +1,22 @@
+{
+  "name": "musify",
+  "version": "1.0.0",
+  "description": "This is a platform being made to service bands, and musicians, where they can promote music, meet with fans, and blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "blog",
+    "platform",
+    "band",
+    "musician"
+  ],
+  "author": "Dylan DeAmaral",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  }
+}
