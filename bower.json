@@ -1,0 +1,28 @@
+{
+  "name": "musify",
+  "description": "This is a platform being made to service bands, and musicians, where they can promote music, meet with fans, and blog",
+  "main": "index.js",
+  "authors": [
+    "Dylan DeAmaral"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "music",
+    "blog",
+    "platform",
+    "band",
+    "musician"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
