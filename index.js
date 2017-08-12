@@ -1,6 +1,7 @@
 var express = require('express');
 let app = express();
 
+var port = process.env.port || 3000;
 
 
 // turn on view engine
@@ -16,9 +17,9 @@ app.get('/', function(req, res) {
 
 // about page 
 app.get('/about', function(req, res) {
-    res.render('pages/about');
+    res.render('pages/test/about');
 });
 
-app.listen(3000, 'localhost', function(){
+app.listen(port, 'localhost', function(){
     console.log("listening for requests at localhost:3000/");
 });
